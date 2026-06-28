@@ -25,7 +25,7 @@ body {
 /* TAMAÑO DEL LOGOTIPO CORREGIDO                              */
 /* ========================================================== */
 .logo-placeholder {
-    width: 95px;           /* Tamaño exacto idéntico al sitio institucional */
+    width: 150px;           /* Tamaño exacto idéntico al sitio institucional */
     flex-shrink: 0;        /* Evita que el logo se aplaste en pantallas móviles */
     margin-right: 25px;    /* Separación correcta hacia los textos de la derecha */
 }
