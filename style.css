@@ -1,0 +1,198 @@
+/* Estilos Generales y Tipografía */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+.main-header {
+    background-color: #ffffff;
+    border-bottom: 4px solid #802434; /* Línea guinda institucional */
+    padding: 15px 20px;
+}
+
+.header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo-placeholder {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.logo-box {
+    border: 1px solid #ccc;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    background: #fafafa;
+}
+
+.header-titles h1 {
+    margin: 0;
+    font-size: 22px;
+    color: #802434;
+    font-weight: normal;
+}
+
+.header-titles h2 {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+}
+
+/* Barra de Navegación */
+.top-nav {
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.top-nav ul {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.top-nav li a {
+    display: block;
+    padding: 12px 15px;
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+    border-right: 1px solid #e0e0e0;
+}
+
+.top-nav li a:hover, .top-nav li a.active {
+    color: #802434;
+    font-weight: bold;
+}
+
+/* Contenedor Principal */
+.main-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    min-height: 500px;
+}
+
+/* Buscador */
+.search-box {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-right: none;
+    font-size: 13px;
+}
+
+.search-box button {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Migas de Pan */
+.breadcrumbs {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.breadcrumbs a {
+    color: #802434;
+    text-decoration: none;
+}
+
+/* Diseño de Contenido Dividido */
+.content-layout {
+    display: flex;
+    gap: 30px;
+}
+
+/* Menú Lateral */
+.sidebar {
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.sidebar h3 {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #eee;
+}
+
+.sidebar li {
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 8px 5px;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+
+.sidebar li a:hover, .sidebar li a.active-sub, .sidebar li.active-nested a {
+    color: #802434;
+}
+
+.sidebar li.nested a {
+    padding-left: 20px;
+    color: #888;
+}
+
+/* Área de Texto Principal */
+.content-area {
+    flex-grow: 1;
+}
+
+.content-area h2 {
+    margin: 0 0 20px 0;
+    font-size: 32px;
+    color: #333;
+    font-weight: normal;
+}
+
+.content-area p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.web-link {
+    color: #802434;
+    text-decoration: none;
+}
+
+.web-link:hover {
+    text-decoration: underline;
+}
