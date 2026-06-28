@@ -20,11 +20,13 @@ body {
     display: flex;
     align-items: center;
 }
-
-.logo-placeholder {
-    width: 75px;
-    margin-right: 20px;
+/* Busca esta sección exacta en tu CSS: */
+.logo-institucional {
+    width: 50%;           /* <--- 1. Si quieres cambiar el tamaño, modifica este porcentaje */
+    height: auto;          
+    display: block;
 }
+
 
 .logo-box {
     border: 1px solid #ccc;
