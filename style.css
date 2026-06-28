@@ -20,21 +20,22 @@ body {
     display: flex;
     align-items: center;
 }
-/* Busca esta sección exacta en tu CSS: */
+
+/* ========================================================== */
+/* TAMAÑO DEL LOGOTIPO CORREGIDO                              */
+/* ========================================================== */
+.logo-placeholder {
+    width: 95px;           /* Tamaño exacto idéntico al sitio institucional */
+    flex-shrink: 0;        /* Evita que el logo se aplaste en pantallas móviles */
+    margin-right: 25px;    /* Separación correcta hacia los textos de la derecha */
+}
+
 .logo-institucional {
-    width: 50%;           /* <--- 1. Si quieres cambiar el tamaño, modifica este porcentaje */
-    height: auto;          
+    width: 100%;           /* Hace que la imagen llene el espacio asignado */
+    height: auto;          /* Mantiene la proporción para que no se deforme */
     display: block;
 }
-
-
-.logo-box {
-    border: 1px solid #ccc;
-    font-size: 10px;
-    padding: 5px;
-    text-align: center;
-    background: #fafafa;
-}
+/* ========================================================== */
 
 .header-titles h1 {
     margin: 0;
@@ -198,4 +199,3 @@ body {
 .web-link:hover {
     text-decoration: underline;
 }
-
