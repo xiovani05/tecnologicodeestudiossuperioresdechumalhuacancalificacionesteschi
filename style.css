@@ -31,7 +31,7 @@ body {
 }
 
 .logo-institucional {
-    width: 60%;           /* Hace que la imagen llene el espacio asignado */
+    width: 40%;           /* Hace que la imagen llene el espacio asignado */
     height: auto;          /* Mantiene la proporción para que no se deforme */
     display: block;
 }
