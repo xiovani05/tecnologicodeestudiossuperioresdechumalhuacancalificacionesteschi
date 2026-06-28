@@ -21,21 +21,18 @@ body {
     align-items: center;
 }
 
-/* ========================================================== */
-/* SECCIÓN MODIFICADA: CONTROL DE TAMAÑO DEL LOGO EDOMEX     */
-/* ========================================================== */
 .logo-placeholder {
-    width: 95px;           /* Controla el ancho del espacio para el logo */
-    flex-shrink: 0;        /* Evita que el logo se aplaste en pantallas móviles */
-    margin-right: 25px;    /* Distancia hacia los títulos del Tecnológico */
+    width: 150px;
+    margin-right: 20px;
 }
 
-.logo-institucional {
-    width: 100%;           /* Fuerza a la imagen gigante a encajar en los 95px */
-    height: auto;          /* Mantiene la proporción original sin deformar */
-    display: block;
+.logo-box {
+    border: 1px solid #ccc;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    background: #fafafa;
 }
-/* ========================================================== */
 
 .header-titles h1 {
     margin: 0;
@@ -199,3 +196,4 @@ body {
 .web-link:hover {
     text-decoration: underline;
 }
+
